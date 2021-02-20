@@ -5,6 +5,7 @@ import Map from './components/Map/Map';
 import Home from './components/Home/Home';
 import MessageBoard from './components/MessageBoard/MessageBoard'
 import './App.css';
+import Form from './components/Form/Form';
 
 export default class App extends React.Component {
   render () {
@@ -19,6 +20,9 @@ export default class App extends React.Component {
               <Link to='/map'>
                 <Typography variant="h6">The Map</Typography>
               </Link>
+              <Link to='/help-form'>
+                <Typography variant="h6">Help For Your Town</Typography>
+              </Link>
               <Link to='/messageBoard'>
                 <Typography variant="h6">Message Board</Typography>
               </Link>
@@ -26,6 +30,7 @@ export default class App extends React.Component {
           </AppBar>
           <Route path='/' exact component={Home} />
           <Route path='/map' component={Map} />
+          <Route path='/help-form' component={Form} />
           <Route path='/messageBoard' component={MessageBoard} />
         </Router>
       </div>
