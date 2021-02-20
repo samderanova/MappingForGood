@@ -10,6 +10,12 @@
     animation-name: fade-in;
     animation-duration: 1s;
 }
+#text-area-input {
+    font-size: 20px;
+    width: 100%;
+    height: 50vh;
+    padding: 10px;
+}
 
 
 Form .card

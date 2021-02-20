@@ -32,16 +32,15 @@ export default class MessageBoard extends React.Component {
     render() {
         return (
             <div className="MessageBoard">
+                <h1>Help in your neighborhood</h1>
                 <form>
-                    <fieldset>
-                        <label htmlFor="email">Email</label>
-                        <br></br>
-                        <input type="email" required={true}/>
+                    
+                        <input type="email" className="pill" placeholder="Enter Email..." required={true}/>
                         <br></br><br></br>
-                        <label htmlFor="newMessage">Share your concerns</label>
-                        <br></br><br></br> 
-                        <textarea name="newMessage" id="newMessageDescription" autoFocus required={true}></textarea>
-                    </fieldset>
+                        <input className="pill" type="text" placeholder="Enter Username..." name="username" />
+                        <br></br><br></br>
+                        <textarea name="newMessage" placeholder="Enter Message" id="newMessageDescription" autoFocus required={true}></textarea>
+                
                     <input type="submit" value="Send Message" onClick={this.sendMessage} />
                 </form>
             </div>

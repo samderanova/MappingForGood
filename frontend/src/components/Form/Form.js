@@ -17,8 +17,8 @@ export default class Form extends React.Component {
             <div id ="#form-container"> 
                 <h1 id="#form-header">How Can We Help You</h1>              
                 <form className="card" action="handle-form"method="post"><br/>
-                    <input className="text-input" type="text" placeholder="Enter Username..." name="username" /><br/>
-                    <input className="text-input" type="text" placeholder="Enter Email..." name="email" /><br/>
+                    <input className="pill" type="text" placeholder="Enter Username..." name="username" /><br/>
+                    <input className="pill" type="text" placeholder="Enter Email..." name="email" /><br/>
                     <input id="#text-area-input"type="textArea" placeholder="Issues in my town..." name="message" /><br/>
                     <input id="#submit-button" type="submit" value="Submit" />
                 </form>               
