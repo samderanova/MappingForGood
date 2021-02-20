@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import sacImg from './images.png';
 
 export default class Home extends React.Component {
     componentDidMount() {
@@ -39,7 +40,7 @@ export default class Home extends React.Component {
                             </p>
                         </div>
                         <div className="box-1-right">
-                            <img src="" width="400" height="400" style={{backgroundColor: 'gray'}} alt="Map of "></img>
+                            <img src={sacImg} width="400" height="400" style={{backgroundColor: 'gray'}} alt="Map of "></img>
                         </div>
                     </div>
                     <div className="box-2 card card-font">

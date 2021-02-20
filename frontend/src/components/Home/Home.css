@@ -1,3 +1,6 @@
+.Home {
+    margin: 0 2.5rem;
+}
 .Home h1 {
     text-align: center;
     font-size: 3rem;
@@ -20,6 +23,7 @@
 
 .box-1 .box-1-left, .box-1 .box-1-right {
     display: inline-block;
+    line-height: 1.75em;
     vertical-align: middle;
     width: 50%;
 }
@@ -57,21 +61,11 @@
     }
 }
 
-.card
-{
-    border-radius: 5px;
-    background: #ffffff;
-    box-shadow:  41px 41px 100px #d9d9d9,
-             -41px -41px 100px #ffffff;
-}
 
-.card-font{
-    font-size:18px;
-}
-
-.backmost-card{
-    border-radius: 50px;
+.card {
+    border-radius: 10px;
     background: #ffffff;
-    box-shadow:  41px 41px 100px #808080,
-             -41px -41px 100px #ffffff;
+    box-shadow:  20px 20px 20px #d9d9d9, -20px -20px 20px #ffffff;
+    padding: 30px;
+
 }
