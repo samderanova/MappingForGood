@@ -1,6 +1,8 @@
 from flask import Flask
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/")
 def home():
@@ -12,12 +14,12 @@ def mapRequest():
     return "Map"
 
 @app.route("/helper-form")
-def mapRequest():
-    return "Form"
+def helper_form():
+    return {"1": 2, "3": 4}
 
     
 @app.route("/message-board",methods=['GET','POST'])
-def mapRequest():
+def message_board():
     return "Messages"
     
 

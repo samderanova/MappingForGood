@@ -4,6 +4,9 @@ import './MessageBoard.css';
 export default class MessageBoard extends React.Component {
     constructor(props) {
         super(props);
+        this.state = {
+            message: ''
+        }
         this.sendMessage = this.sendMessage.bind(this);
     }
     componentDidMount() {
@@ -12,6 +15,10 @@ export default class MessageBoard extends React.Component {
         // fetch('http://localhost:5000/messages')
             // .then(() => null)
             // .catch(err => console.error(err));
+        fetch('http://localhost:5000/helper-form')
+            .then((res) => {
+            })
+            .catch((err) => console.error(err))
     }
     sendMessage(e) {
         // Send message to Flask backend so it can be updated with MongoDB
@@ -43,6 +50,7 @@ export default class MessageBoard extends React.Component {
                 
                     <input type="submit" value="Send Message" onClick={this.sendMessage} />
                 </form>
+                <h2>{this.state.message}</h2>
             </div>
         )
     }
