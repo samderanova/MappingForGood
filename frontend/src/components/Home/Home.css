@@ -61,7 +61,6 @@
     }
 }
 
-<<<<<<< HEAD
 .card
 {
     border-radius: 21px;
@@ -69,17 +68,3 @@ background: #f6f7f3;
 box-shadow:  16px 16px 32px #ecede9,
              -16px -16px 32px #fffffd;
 }
-=======
-
-.card {
-    border-radius: 10px;
-    background: #ffffff;
-    box-shadow:  20px 20px 20px #d9d9d9, -20px -20px 20px #ffffff;
-    padding: 30px;
->>>>>>> 53ef807f0557b5df0f0cc34f907bbd17e7913b3c
-
-}
-<<<<<<< HEAD
-
-=======
->>>>>>> 53ef807f0557b5df0f0cc34f907bbd17e7913b3c
