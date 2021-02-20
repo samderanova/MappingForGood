@@ -20,7 +20,7 @@ export default class Home extends React.Component {
                 </header>
                 <main>
                     <div className="box-1" id="#problem">
-                        <h2 >The Problem</h2>
+                        <h2 className="card">The Problem</h2>
                         <div className="box-1-left card card-font">
                         <p>
                                     Poverty is a persisting problem throughout the United States with over 46.2 million Americans living in poverty according to the US Census

@@ -1,0 +1,11 @@
+.MessageBoard label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.MessageBoard textarea {
+    font-size: 20px;
+    width: 100%;
+    height: 50vh;
+    padding: 10px;
+}

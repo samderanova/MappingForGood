@@ -12,3 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.Home, .MessageBoard {
+  margin: 2.5rem;
+}
