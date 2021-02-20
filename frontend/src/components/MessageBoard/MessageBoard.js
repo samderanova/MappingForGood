@@ -5,17 +5,17 @@ export default class MessageBoard extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            email: '',
+            username: '',
             message: ''
         }
         this.sendMessage = this.sendMessage.bind(this);
+        this.updateFormState = this.updateFormState.bind(this);
     }
     componentDidMount() {
         // Call to localhost:5000, the Flask backend which will get the messages stored in
         // a MongoDB database
-        // fetch('http://localhost:5000/messages')
-            // .then(() => null)
-            // .catch(err => console.error(err));
-        fetch('http://localhost:5000/helper-form')
+        fetch('http://localhost:5000/message-board')
             .then((res) => {
             })
             .catch((err) => console.error(err))
@@ -23,7 +23,7 @@ export default class MessageBoard extends React.Component {
     sendMessage(e) {
         // Send message to Flask backend so it can be updated with MongoDB
         let input_elements = document.getElementsByTagName("input");
-        let textarea = document.getElementById('')
+        let textarea = document.getElementById('newMessageDescription');
         for (let el of input_elements) {
             if (!el.checkValidity()) {
                 el.style.border = "3px solid red";
@@ -34,7 +34,20 @@ export default class MessageBoard extends React.Component {
             textarea.style.border = "3px solid red";
             return;
         }
-        console.log('Hello');
+        fetch('http://localhost:5000/message-board', {
+            method: "POST",
+            headers: {
+                'Content-Type': "application/json"
+            },
+            body: JSON.stringify({
+                "email": this.state.email,
+                "username": this.state.username,
+                "message": this.state.message
+            })
+        })
+    }
+    updateFormState(e) {
+        this.setState({[e.target.name]: e.target.value})
     }
     render() {
         return (
@@ -42,13 +55,13 @@ export default class MessageBoard extends React.Component {
                 <h1>Help in your neighborhood</h1>
                 <form>
                     
-                        <input type="email" className="pill" placeholder="Enter Email..." required={true}/>
+                        <input type="email" name="email" className="pill" placeholder="Enter Email..." required={true} onChange={this.updateFormState}/>
                         <br></br><br></br>
-                        <input className="pill" type="text" placeholder="Enter Username..." name="username" />
+                        <input className="pill" type="text" placeholder="Enter Username..." name="username" required={true} onChange={this.updateFormState} />
                         <br></br><br></br>
-                        <textarea name="newMessage" placeholder="Enter Message" id="newMessageDescription" autoFocus required={true}></textarea>
+                        <textarea name="message" placeholder="Enter Message" id="newMessageDescription" autoFocus required={true} onChange={this.updateFormState}></textarea>
                 
-                    <input type="submit" value="Send Message" onClick={this.sendMessage} />
+                    <button type="button" onClick={this.sendMessage}>Send Message</button>
                 </form>
                 <h2>{this.state.message}</h2>
             </div>
