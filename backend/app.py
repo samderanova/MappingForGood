@@ -1,11 +1,15 @@
 import json
+import os
 
 import firebase_admin
 from firebase_admin import credentials, firestore
 from flask import Flask, request
 from flask_cors import CORS
 
-cred = credentials.Certificate('MappingForGood\\backend\\gcp-3f8449c9ed6e.json')
+current_dir = os.path.dirname(os.path.abspath(__file__))
+auth_json_path = os.path.join(current_dir, 'gcp-3f8449c9ed6e.json')
+
+cred = credentials.Certificate(auth_json_path)
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 messages = db.collection(u'messages')

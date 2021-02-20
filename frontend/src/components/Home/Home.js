@@ -41,7 +41,7 @@ export default class Home extends React.Component {
                         <h2>The Solution</h2>
                         <div className="box-2-left ">
                             <p>To help solve this problem, we created a map that maps poverty across the city of 
-                                Sacramento, CA. Some metrics we used were:
+                                Sacramento, CA. Some metrics we used were:</p>
                                 <ul>
                                     <li>Food deserts are areas with limited access to nutritious and affordable food.
                                         In particular an area is classified as a food desert if a neighborhood is more than 1 mile away from a supermarket.
@@ -49,7 +49,6 @@ export default class Home extends React.Component {
                                     <li>We also used income data from the US census to determine areas of economic inequity</li>
                                 </ul>
                                 By using these metrics our team aims to be able to pinpoint areas that are in need of additonal aid in the form of social programs or donations.
-                            </p>
                             <p>We also acknowledge that many areas can be overlooked by Census and other federal datasets, and so our team created a message board in which people can communicate the needs of their communities.</p>
                         </div>
                         <div className="box-2-right">
