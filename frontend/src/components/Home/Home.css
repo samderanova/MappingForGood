@@ -63,8 +63,9 @@
 
 .card
 {
-    border-radius: 21px;
-background: #f6f7f3;
-box-shadow:  16px 16px 32px #ecede9,
-             -16px -16px 32px #fffffd;
+    font-size: 18px;
+    border-radius: 8px;
+background: #313030;
+box-shadow:  5px 5px 10px #2d2c2c,
+             -5px -5px 10px #2d2c2c;
 }
