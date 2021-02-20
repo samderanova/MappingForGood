@@ -1,19 +1,18 @@
-.Home {
-    margin: 0 2.5rem;
-}
-.Home h1 {
-    display:flex;
+/* All animations are in frontend/index.css */
+
+.Home header {
+    padding: 0 !important;
+    margin: 0 !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('sacramento.jpg');
+    display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 200;
-    height:400px;
-    padding: 1rem 0.25rem;
+    font-size: 2rem;
+    height: 90vh;
     animation-name: fade-in;
     animation-duration: 1s;
-    background-color:#2d2c2c ;
 }
+
 
 .Home h2 {
     text-align: center;
@@ -21,16 +20,19 @@
     font-weight: 100;
 }
 
-.Home hr {
-    width: 80%;
-    text-align: center;
+.box-1, .box-2, .box-3 {
+    padding: 80px 100px;
 }
 
-.box-1 .box-1-left, .box-1 .box-1-right {
+.box-1-left, .box-1-right, .box-2-left, .box-2-right, .box-3-left, .box-3-right {
     display: inline-block;
     line-height: 1.75em;
     vertical-align: middle;
     width: 50%;
+}
+
+.box-1-left, .box-2-right, .box-3-left {
+    padding: 30px;
 }
 
 .box-1-left p {
@@ -44,33 +46,16 @@
 .box-1-right img {
     display: block;
     margin: auto;
+    width: 80%;
+    box-shadow:  5px 5px 10px rgb(124, 124, 124),
+                -5px -5px 10px rgb(124, 124, 124);
 }
 
 
-@keyframes fade-in {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes slide-up {
-    from {
-        opacity: 0;
-        transform: translateY(-10vh);
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.card
-{
+.card {
     font-size: 18px;
     border-radius: 8px;
-background: #313030;
-box-shadow:  5px 5px 10px #2d2c2c,
-             -5px -5px 10px #2d2c2c;
+    background: #313030;
+    box-shadow:  5px 5px 10px #2d2c2c,
+                -5px -5px 10px #2d2c2c;
 }

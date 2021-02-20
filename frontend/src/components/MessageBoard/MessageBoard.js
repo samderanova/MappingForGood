@@ -52,18 +52,20 @@ export default class MessageBoard extends React.Component {
     render() {
         return (
             <div className="MessageBoard">
-                <h1>Help in your neighborhood</h1>
+                <h1>Looking to get help for your neighborhood? Please leave your concerns here!</h1>
                 <form>
-                    
-                        <input type="email" name="email" className="pill" placeholder="Enter Email..." required={true} onChange={this.updateFormState}/>
-                        <br></br><br></br>
-                        <input className="pill" type="text" placeholder="Enter Username..." name="username" required={true} onChange={this.updateFormState} />
-                        <br></br><br></br>
-                        <textarea name="message" placeholder="Enter Message" id="newMessageDescription" autoFocus required={true} onChange={this.updateFormState}></textarea>
-                
+                    <label for="email">Email</label><br></br><br></br>
+                    <input type="email" name="email" className="pill" required={true} onChange={this.updateFormState}/>
+                    <br></br><br></br>
+                    <label for="username">Username</label><br></br><br></br>
+                    <input className="pill" type="text" name="username" required={true} onChange={this.updateFormState} />
+                    <br></br><br></br>
+                    <label for="message">Message</label><br></br><br></br>
+                    <textarea name="message" id="newMessageDescription" autoFocus required={true} onChange={this.updateFormState}></textarea>
+                    <br></br><br></br>
                     <button type="button" onClick={this.sendMessage}>Send Message</button>
+
                 </form>
-                <h2>{this.state.message}</h2>
             </div>
         )
     }
