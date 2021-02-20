@@ -62,19 +62,13 @@
 
 .card
 {
-    border-radius: 5px;
-    background: #ffffff;
-    box-shadow:  41px 41px 100px #d9d9d9,
-             -41px -41px 100px #ffffff;
+    border-radius: 21px;
+background: #f6f7f3;
+box-shadow:  16px 16px 32px #ecede9,
+             -16px -16px 32px #fffffd;
 }
 
 .card-font{
     font-size:18px;
 }
 
-.backmost-card{
-    border-radius: 50px;
-    background: #ffffff;
-    box-shadow:  41px 41px 100px #808080,
-             -41px -41px 100px #ffffff;
-}

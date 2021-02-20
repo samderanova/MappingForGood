@@ -14,13 +14,13 @@ export default class Home extends React.Component {
     }
     render() {
         return (
-            <div className="Home backmost-card">
+            <div className="Home">
                 <header>
                     <h1>Our Mission</h1>
                 </header>
                 <main>
                     <div className="box-1" id="#problem">
-                        <h2>The Problem</h2>
+                        <h2 >The Problem</h2>
                         <div className="box-1-left card card-font">
                         <p>
                                     Poverty is a persisting problem throughout the United States with over 46.2 million Americans living in poverty according to the US Census
@@ -44,7 +44,7 @@ export default class Home extends React.Component {
                     </div>
                     <div className="box-2 card card-font">
                         <h2>The Solution</h2>
-                        <div className="box-2-left">
+                        <div className="box-2-left ">
                             <p>To help solve this problem, we created a map that maps poverty across the city of 
                                 Sacramento, CA. Some metrics we used were:
                                 <ul>
