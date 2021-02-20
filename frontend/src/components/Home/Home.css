@@ -2,12 +2,17 @@
     margin: 0 2.5rem;
 }
 .Home h1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-size: 3rem;
     font-weight: 200;
+    height:400px;
     padding: 1rem 0.25rem;
     animation-name: fade-in;
     animation-duration: 1s;
+    background-color:#2d2c2c ;
 }
 
 .Home h2 {
@@ -54,7 +59,7 @@
 @keyframes slide-up {
     from {
         opacity: 0;
-        transform: translateY(2vh);
+        transform: translateY(-10vh);
     }
     to {
         opacity: 1;
