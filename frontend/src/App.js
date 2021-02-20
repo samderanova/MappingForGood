@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { AppBar, Toolbar, Typography } from '@material-ui/core';
-import Map from './components/Map';
+import Map from './components/Map/Map';
 import Home from './components/Home/Home';
+import MessageBoard from './components/MessageBoard/MessageBoard'
 import './App.css';
 
 export default class App extends React.Component {
@@ -18,10 +19,14 @@ export default class App extends React.Component {
               <Link to='/map'>
                 <Typography variant="h6">The Map</Typography>
               </Link>
+              <Link to='/messageBoard'>
+                <Typography variant="h6">Message Board</Typography>
+              </Link>
             </Toolbar>
           </AppBar>
           <Route path='/' exact component={Home} />
-          <Route path='/about' component={Map} />
+          <Route path='/map' component={Map} />
+          <Route path='/messageBoard' component={MessageBoard} />
         </Router>
       </div>
     )

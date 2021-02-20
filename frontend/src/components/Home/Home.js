@@ -37,12 +37,12 @@ export default class Home extends React.Component {
                         <h2>The Solution</h2>
                         <div className="box-2-left">
                             <p>To help solve this problem, we created a map that maps poverty across the city of 
-                                Sacramento, CA. Some metrics we used were:
-                                <ul>
-                                    <li>Food deserts in areas with limited access to food</li>
-                                    <li>Income levels</li>
-                                </ul>
-                                With these metrics, our map can provide informative advice to government
+                                Sacramento, CA. Some metrics we used were:</p>
+                            <ul>
+                                <li>Food deserts in areas with limited access to food</li>
+                                <li>Income levels</li>
+                            </ul>
+                            <p>With these metrics, our map can provide informative advice to government
                                 agencies and nonprofit organizations to help them pinpoint which areas need
                                 aid the most.
                             </p>
