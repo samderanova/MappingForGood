@@ -14,13 +14,13 @@ export default class Home extends React.Component {
     }
     render() {
         return (
-            <div className="Home">
+            <div className="Home backmost-card">
                 <header>
                     <h1>Our Mission</h1>
                 </header>
                 <main>
                     <div className="box-1" id="#problem">
-                        <h2 className="card">The Problem</h2>
+                        <h2 >The Problem</h2>
                         <div className="box-1-left card card-font">
                         <p>
                                     Poverty is a persisting problem throughout the United States with over 46.2 million Americans living in poverty according to the US Census
@@ -39,7 +39,7 @@ export default class Home extends React.Component {
                             </p>
                         </div>
                         <div className="box-1-right">
-                            <img src="" width="400" height="400" style={{backgroundColor: 'gray'}} alt="Map of "></img>
+                            <img src="https://kubrick.htvapps.com/vidthumb/0d8ba403-2af2-4608-9f85-967929330f74/0d8ba403-2af2-4608-9f85-967929330f74_image.jpg?crop=0.775xw:0.774xh;0.0718xw,0&resize=1200:*" width="500" height="500" style={{backgroundColor: 'gray'}} alt="Map of "></img>
                         </div>
                     </div>
                     <div className="box-2 card card-font">
