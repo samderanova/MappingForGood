@@ -56,7 +56,13 @@
     line-height: 1.75em;
     vertical-align: top;
     padding: 10px;
+<<<<<<< HEAD
     margin: 100px;
+=======
+    width: 45%;
+    margin-right:50px;
+    
+>>>>>>> 0a1fd8acdf38b48e86c8ea200a37d768b1bd0b86
 }
 
 .logos {
@@ -75,5 +81,9 @@
     background: #313030;
     box-shadow:  5px 5px 10px #2d2c2c,
                 -5px -5px 10px #2d2c2c;
+<<<<<<< HEAD
     padding: 30px;
+=======
+          
+>>>>>>> 0a1fd8acdf38b48e86c8ea200a37d768b1bd0b86
 }
