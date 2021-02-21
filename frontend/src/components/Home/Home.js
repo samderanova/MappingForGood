@@ -31,7 +31,7 @@ export default class Home extends React.Component {
         return (
             <div className="Home backmost-card">
                 <header>
-                    <h1 style={{fontSize:"40"}}>MapsForGood</h1>
+                    <h1 style={{fontSize:"40"}}>MappingForGood</h1>
                 </header>
                 <main>
                     <div className="box-1" id="#problem">
