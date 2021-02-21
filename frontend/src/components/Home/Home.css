@@ -24,7 +24,7 @@
     padding: 80px 100px;
 }
 
-.box-1-left, .box-1-right, .box-2-left, .box-2-right, .box-3-left, .box-3-right {
+.box-1-left, .box-1-right, .box-2-left, .box-2-right {
     display: inline-block;
     line-height: 1.75em;
     vertical-align: middle;
@@ -51,6 +51,23 @@
                 -5px -5px 10px rgb(124, 124, 124);
 }
 
+.box-3-left, .box-3-right {
+    display: inline-block;
+    line-height: 1.75em;
+    vertical-align: top;
+    padding: 10px;
+    width: 50%;
+}
+
+.logos {
+    display: block;
+    margin: auto;
+}
+
+.logos img {
+    margin: 10px;
+    vertical-align: middle;
+}
 
 .card {
     font-size: 18px;
