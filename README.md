@@ -36,17 +36,7 @@ We also used the metric of determining whether an area is a **Food Desert**. An 
 
 |The Project Made Use Of The Following Tools & Technologies |
 |---------|
-|<code><img height="35" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/python.svg"></code>
-<code><img height="35" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/react.svg"></code>
-<code><img height="35" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/html5.svg"></code>
-<code><img height="35" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/git.svg"></code>
-<code><img height="35" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/github.svg"></code>
-<code><img height="35" src=""></code>
-<code><img height="35" src=""></code>
-<code><img height="35" src=""></code>
-<code><img height="35" src=""></code>
-<code><img height="35" src="link to image"></code>
-<code><img height="35" src=""></code>|
+|<a><img align="left" alt="Python" width="35px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/python.svg" /></a>
 
 ### Link To Web App & Dataset
 
@@ -62,7 +52,7 @@ We also used the metric of determining whether an area is a **Food Desert**. An 
 
 |.|Name|College|Location|
 |---|---|---|---|
-|⭐|Sam Der|UC Irvine|Alameda, CA|
+|⭐|Sam Der|UC Irvine|San Francisco, CA|
 |⭐|Ishan Meher|Folsom Lake College|Sacramento, CA|
 |⭐|Grace Foo|Monash University|Selangor, Malaysia|
 |⭐|Arya Shah|NMIMS University|Mumbai, India|
