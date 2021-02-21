@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            padding: 0.75rem;
+        }
+    </style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_26e6e732d4e443c7a68b81f0b649f3ca {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+            <nav>
+                <a href="http://localhost:3000">MappingForGood</a>
+                <a href="http://localhost:5000/map">The Map</a>
+                <a href="http://localhost:3000/messageBoard">Message Board</a>
+            </nav>
+            <div class="folium-map" id="map_26e6e732d4e443c7a68b81f0b649f3ca" ></div>
+        
+</body>
+<script>    
+    
+            var map_26e6e732d4e443c7a68b81f0b649f3ca = L.map(
+                "map_26e6e732d4e443c7a68b81f0b649f3ca",
+                {
+                    center: [38.575764, -121.478851],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d47f0cf85c1b405a9d8c9cae0c11d3f7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_26e6e732d4e443c7a68b81f0b649f3ca);
+        
+    
+            var marker_ddab178d7f2441e6b05b9da5cdf8e1a4 = L.marker(
+                [38.4887495, -121.4990252],
+                {}
+            ).addTo(map_26e6e732d4e443c7a68b81f0b649f3ca);
+        
+    
+            var icon_fedac75b32fd4d8b9a9c14e0c6a74181 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ddab178d7f2441e6b05b9da5cdf8e1a4.setIcon(icon_fedac75b32fd4d8b9a9c14e0c6a74181);
+        
+    
+        var popup_ae8af26b88064a02ae36d2b1bed55600 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8df7a2fc40c448fe94cdd52c6180b5c0 = $(`<div id="html_8df7a2fc40c448fe94cdd52c6180b5c0" style="width: 100.0%; height: 100.0%;"><i> Food Desert </i></div>`)[0];
+            popup_ae8af26b88064a02ae36d2b1bed55600.setContent(html_8df7a2fc40c448fe94cdd52c6180b5c0);
+        
+
+        marker_ddab178d7f2441e6b05b9da5cdf8e1a4.bindPopup(popup_ae8af26b88064a02ae36d2b1bed55600)
+        ;
+
+        
+    
+    
+            var marker_12fad91a48414e829bac27bcc8798236 = L.marker(
+                [38.4761513, -121.48735259999998],
+                {}
+            ).addTo(map_26e6e732d4e443c7a68b81f0b649f3ca);
+        
+    
+            var icon_d6fcf8062c2e43d1b78675f76e1881e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_12fad91a48414e829bac27bcc8798236.setIcon(icon_d6fcf8062c2e43d1b78675f76e1881e4);
+        
+    
+        var popup_a5135ff115d14e45ba6940c84a6ddc65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ea022c880b24182804d36cc1e1a7193 = $(`<div id="html_1ea022c880b24182804d36cc1e1a7193" style="width: 100.0%; height: 100.0%;"><i> Food Desert </i></div>`)[0];
+            popup_a5135ff115d14e45ba6940c84a6ddc65.setContent(html_1ea022c880b24182804d36cc1e1a7193);
+        
+
+        marker_12fad91a48414e829bac27bcc8798236.bindPopup(popup_a5135ff115d14e45ba6940c84a6ddc65)
+        ;
+
+        
+    
+    
+            var marker_9657312fd5354cfb868a3b28f3eb2f58 = L.marker(
+                [38.4995505, -121.4190446],
+                {}
+            ).addTo(map_26e6e732d4e443c7a68b81f0b649f3ca);
+        
+    
+            var icon_371f5c00d7db4182ad32a3e1b246320c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9657312fd5354cfb868a3b28f3eb2f58.setIcon(icon_371f5c00d7db4182ad32a3e1b246320c);
+        
+    
+        var popup_cd3df54c121d4796b3e4975c8f1d6c91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f646f616b9b4fe8a23b21bc49cec3e8 = $(`<div id="html_6f646f616b9b4fe8a23b21bc49cec3e8" style="width: 100.0%; height: 100.0%;"><i> Food Desert </i></div>`)[0];
+            popup_cd3df54c121d4796b3e4975c8f1d6c91.setContent(html_6f646f616b9b4fe8a23b21bc49cec3e8);
+        
+
+        marker_9657312fd5354cfb868a3b28f3eb2f58.bindPopup(popup_cd3df54c121d4796b3e4975c8f1d6c91)
+        ;
+
+        
+    
+    
+            var marker_6345a2d553904c629d7faee60e7a7cb9 = L.marker(
+                [38.58979470000001, -121.43175320000002],
+                {}
+            ).addTo(map_26e6e732d4e443c7a68b81f0b649f3ca);
+        
+    
+            var icon_0cb5081249fd475194242480989389d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6345a2d553904c629d7faee60e7a7cb9.setIcon(icon_0cb5081249fd475194242480989389d9);
+        
+    
+        var popup_ea334aa77adf48a0931349784d6af54f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4e2d7a7eae041a78bea04ad19e31fd6 = $(`<div id="html_a4e2d7a7eae041a78bea04ad19e31fd6" style="width: 100.0%; height: 100.0%;"><i> Food Desert </i></div>`)[0];
+            popup_ea334aa77adf48a0931349784d6af54f.setContent(html_a4e2d7a7eae041a78bea04ad19e31fd6);
+        
+
+        marker_6345a2d553904c629d7faee60e7a7cb9.bindPopup(popup_ea334aa77adf48a0931349784d6af54f)
+        ;
+
+        
+    
+    
+            var marker_0e2c4887fa1d427ca21840c19366b3b1 = L.marker(
+                [38.6046274, -121.4270027],
+                {}
+            ).addTo(map_26e6e732d4e443c7a68b81f0b649f3ca);
+        
+    
+            var icon_0bc0de20062c43c1bc484a497fbebb79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0e2c4887fa1d427ca21840c19366b3b1.setIcon(icon_0bc0de20062c43c1bc484a497fbebb79);
+        
+    
+        var popup_3ab53ab09d2a4fa2b74df02362db731b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0939d973f8794378a2310a92b3aae855 = $(`<div id="html_0939d973f8794378a2310a92b3aae855" style="width: 100.0%; height: 100.0%;"><i> Food Desert </i></div>`)[0];
+            popup_3ab53ab09d2a4fa2b74df02362db731b.setContent(html_0939d973f8794378a2310a92b3aae855);
+        
+
+        marker_0e2c4887fa1d427ca21840c19366b3b1.bindPopup(popup_3ab53ab09d2a4fa2b74df02362db731b)
+        ;
+
+        
+    
+    
+            var marker_4a2b99e7c451443eabb9d8183c371ef7 = L.marker(
+                [38.6416454, -121.42023799999998],
+                {}
+            ).addTo(map_26e6e732d4e443c7a68b81f0b649f3ca);
+        
+    
+            var icon_b4c9c48e5da54ecda5841a810258ad46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4a2b99e7c451443eabb9d8183c371ef7.setIcon(icon_b4c9c48e5da54ecda5841a810258ad46);
+        
+    
+        var popup_0b9989387192400082689521980add0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c96e50f8c8a4c32a99a204febfa1671 = $(`<div id="html_2c96e50f8c8a4c32a99a204febfa1671" style="width: 100.0%; height: 100.0%;"><i> Food Desert </i></div>`)[0];
+            popup_0b9989387192400082689521980add0c.setContent(html_2c96e50f8c8a4c32a99a204febfa1671);
+        
+
+        marker_4a2b99e7c451443eabb9d8183c371ef7.bindPopup(popup_0b9989387192400082689521980add0c)
+        ;
+
+        
+    
+    
+            var marker_af2c6834c961497eb52a0739253c07a3 = L.marker(
+                [38.6441696, -121.4385656],
+                {}
+            ).addTo(map_26e6e732d4e443c7a68b81f0b649f3ca);
+        
+    
+            var icon_3625643910c24dd69dcef87de378d459 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_af2c6834c961497eb52a0739253c07a3.setIcon(icon_3625643910c24dd69dcef87de378d459);
+        
+    
+        var popup_50f9d48cef9e46938ae19dac8ee8df67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_829de8bdb798485889a211ac769f296f = $(`<div id="html_829de8bdb798485889a211ac769f296f" style="width: 100.0%; height: 100.0%;"><i> Food Desert </i></div>`)[0];
+            popup_50f9d48cef9e46938ae19dac8ee8df67.setContent(html_829de8bdb798485889a211ac769f296f);
+        
+
+        marker_af2c6834c961497eb52a0739253c07a3.bindPopup(popup_50f9d48cef9e46938ae19dac8ee8df67)
+        ;
+
+        
+    
+    
+            var marker_e5e53c9034524b3ea0db6b53c09427e2 = L.marker(
+                [38.6172437, -121.3373129],
+                {}
+            ).addTo(map_26e6e732d4e443c7a68b81f0b649f3ca);
+        
+    
+            var icon_83202a013bd0400bb55b243ced8b8d06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e5e53c9034524b3ea0db6b53c09427e2.setIcon(icon_83202a013bd0400bb55b243ced8b8d06);
+        
+    
+        var popup_d4fec9b6019b40588c8bf66fca4e9b11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3bd90f1c3ea487dabde20719f5dc357 = $(`<div id="html_b3bd90f1c3ea487dabde20719f5dc357" style="width: 100.0%; height: 100.0%;"><i> Food Desert </i></div>`)[0];
+            popup_d4fec9b6019b40588c8bf66fca4e9b11.setContent(html_b3bd90f1c3ea487dabde20719f5dc357);
+        
+
+        marker_e5e53c9034524b3ea0db6b53c09427e2.bindPopup(popup_d4fec9b6019b40588c8bf66fca4e9b11)
+        ;
+
+        
+    
+    
+            var marker_95d5c973c0be440587c01a61f1b69f33 = L.marker(
+                [38.63133610000001, -121.3149374],
+                {}
+            ).addTo(map_26e6e732d4e443c7a68b81f0b649f3ca);
+        
+    
+            var icon_65ddddf008c949c3bfeffd06edf97728 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_95d5c973c0be440587c01a61f1b69f33.setIcon(icon_65ddddf008c949c3bfeffd06edf97728);
+        
+    
+        var popup_8d463b7e445e4c91ba108532f35ae52a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ec5e6fa6a21400a997c546a8c45587a = $(`<div id="html_9ec5e6fa6a21400a997c546a8c45587a" style="width: 100.0%; height: 100.0%;"><i> Food Desert </i></div>`)[0];
+            popup_8d463b7e445e4c91ba108532f35ae52a.setContent(html_9ec5e6fa6a21400a997c546a8c45587a);
+        
+
+        marker_95d5c973c0be440587c01a61f1b69f33.bindPopup(popup_8d463b7e445e4c91ba108532f35ae52a)
+        ;
+
+        
+    
+    
+            var marker_c9a11243362848d599ade0cb46773e68 = L.marker(
+                [38.5877273, -121.3171784],
+                {}
+            ).addTo(map_26e6e732d4e443c7a68b81f0b649f3ca);
+        
+    
+            var icon_727b9b6f4b7d48a4866c577d6f72fa42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c9a11243362848d599ade0cb46773e68.setIcon(icon_727b9b6f4b7d48a4866c577d6f72fa42);
+        
+    
+        var popup_cc4b811178f246ba8a34bb05f9725943 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14e823eb82d84dd0be22ee79cb8d0100 = $(`<div id="html_14e823eb82d84dd0be22ee79cb8d0100" style="width: 100.0%; height: 100.0%;"><i> Food Desert </i></div>`)[0];
+            popup_cc4b811178f246ba8a34bb05f9725943.setContent(html_14e823eb82d84dd0be22ee79cb8d0100);
+        
+
+        marker_c9a11243362848d599ade0cb46773e68.bindPopup(popup_cc4b811178f246ba8a34bb05f9725943)
+        ;
+
+        
+    
+    
+            var marker_07eba17fc7bd4e8b9b6803f4b29f8e43 = L.marker(
+                [38.5762723, -121.3037699],
+                {}
+            ).addTo(map_26e6e732d4e443c7a68b81f0b649f3ca);
+        
+    
+            var icon_47183103c82247f9aebd51b18e8fdcc4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_07eba17fc7bd4e8b9b6803f4b29f8e43.setIcon(icon_47183103c82247f9aebd51b18e8fdcc4);
+        
+    
+        var popup_a1f44c709de24ecbaead59e2304472f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c48553c097bb494fba6fe2bedae8bad8 = $(`<div id="html_c48553c097bb494fba6fe2bedae8bad8" style="width: 100.0%; height: 100.0%;"><i> Food Desert </i></div>`)[0];
+            popup_a1f44c709de24ecbaead59e2304472f6.setContent(html_c48553c097bb494fba6fe2bedae8bad8);
+        
+
+        marker_07eba17fc7bd4e8b9b6803f4b29f8e43.bindPopup(popup_a1f44c709de24ecbaead59e2304472f6)
+        ;
+
+        
+    
+    
+            var marker_7257c518904b4d6aabd35854b3233eae = L.marker(
+                [38.5619376, -121.371319],
+                {}
+            ).addTo(map_26e6e732d4e443c7a68b81f0b649f3ca);
+        
+    
+            var icon_337f25e2d03e49ba94084d44644648a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7257c518904b4d6aabd35854b3233eae.setIcon(icon_337f25e2d03e49ba94084d44644648a9);
+        
+    
+        var popup_26cfffd285df4207840bb67f0e562d30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9087fdcfce8f48cca459553aa6b72537 = $(`<div id="html_9087fdcfce8f48cca459553aa6b72537" style="width: 100.0%; height: 100.0%;"><i> Food Desert </i></div>`)[0];
+            popup_26cfffd285df4207840bb67f0e562d30.setContent(html_9087fdcfce8f48cca459553aa6b72537);
+        
+
+        marker_7257c518904b4d6aabd35854b3233eae.bindPopup(popup_26cfffd285df4207840bb67f0e562d30)
+        ;
+
+        
+    
+    
+            var marker_e72166e5d08b4962975b932094fe6ba2 = L.marker(
+                [38.4555299, -121.4375735],
+                {}
+            ).addTo(map_26e6e732d4e443c7a68b81f0b649f3ca);
+        
+    
+            var icon_b0ec450f1dd942968985e1302ccce7e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e72166e5d08b4962975b932094fe6ba2.setIcon(icon_b0ec450f1dd942968985e1302ccce7e3);
+        
+    
+        var popup_084415e9365f4d7d83a1d495066ccefe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8a5b35527e54a75ab32fafe35f6eeae = $(`<div id="html_a8a5b35527e54a75ab32fafe35f6eeae" style="width: 100.0%; height: 100.0%;"><i> Food Desert </i></div>`)[0];
+            popup_084415e9365f4d7d83a1d495066ccefe.setContent(html_a8a5b35527e54a75ab32fafe35f6eeae);
+        
+
+        marker_e72166e5d08b4962975b932094fe6ba2.bindPopup(popup_084415e9365f4d7d83a1d495066ccefe)
+        ;
+
+        
+    
+</script>

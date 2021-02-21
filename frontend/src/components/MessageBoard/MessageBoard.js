@@ -64,7 +64,6 @@ export default class MessageBoard extends React.Component {
                     <textarea name="message" id="newMessageDescription" autoFocus required={true} onChange={this.updateFormState}></textarea>
                     <br></br><br></br>
                     <button type="button" onClick={this.sendMessage}>Send Message</button>
-
                 </form>
             </div>
         )

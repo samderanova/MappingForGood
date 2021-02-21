@@ -16,9 +16,9 @@ export default class App extends React.Component {
               <Link to="/">
                 <Typography variant="h5"><strong>MappingForGood</strong></Typography>
               </Link>
-              <Link to='/map'>
+              <a href="http://localhost:5000/map">
                 <Typography variant="h6">The Map</Typography>
-              </Link>
+              </a>
               <Link to='/messageBoard'>
                 <Typography variant="h6">Message Board</Typography>
               </Link>

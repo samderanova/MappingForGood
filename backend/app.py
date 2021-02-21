@@ -3,7 +3,8 @@ import os
 
 import firebase_admin
 from firebase_admin import credentials, firestore
-from flask import Flask, request
+from flask import Flask, request, render_template
+from flask.templating import render_template_string
 from flask_cors import CORS
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -25,7 +26,7 @@ def home():
 
 @app.route("/map")
 def mapRequest():
-    return "Map"
+    return render_template('map.html')
 
 
 @app.route("/helper-form")
