@@ -57,9 +57,6 @@
     vertical-align: top;
     padding: 10px;
     margin: 100px;
-    width: 45%;
-    margin-right:50px;
-    
 }
 
 .logos {
@@ -78,5 +75,5 @@
     background: #313030;
     box-shadow:  5px 5px 10px #2d2c2c,
                 -5px -5px 10px #2d2c2c;
-          
+    padding: 30px;
 }
