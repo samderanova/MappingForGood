@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Map() {
     // Map JSX goes here
-    return(
+    return (
         <div className="Map">
         </div>
     )

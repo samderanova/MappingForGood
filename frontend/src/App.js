@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { AppBar, Toolbar, Typography } from '@material-ui/core';
 import Map from './components/Map/Map';
 import Home from './components/Home/Home';
-import MessageBoard from './components/MessageBoard/MessageBoard'
+import Form from './components/Form/Form'
 import './App.css';
 
 export default class App extends React.Component {
@@ -25,8 +25,7 @@ export default class App extends React.Component {
             </Toolbar>
           </AppBar>
           <Route path='/' exact component={Home} />
-          <Route path='/map' component={Map} />
-          <Route path='/messageBoard' component={MessageBoard} />
+          <Route path='/messageBoard' component={Form} />
         </Router>
       </div>
     )

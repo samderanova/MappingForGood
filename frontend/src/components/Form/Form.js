@@ -1,5 +1,5 @@
 import React from 'react';
-import './MessageBoard.css';
+import './Form.css';
 
 export default class MessageBoard extends React.Component {
     constructor(props) {

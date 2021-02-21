@@ -2,10 +2,11 @@ import json
 import os
 
 import firebase_admin
+import pandas as pd
 from firebase_admin import credentials, firestore
 from flask import Flask, request, render_template
-from flask.templating import render_template_string
 from flask_cors import CORS
+import ModelFunction
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 auth_json_path = os.path.join(current_dir, 'gcp-3f8449c9ed6e.json')
@@ -14,7 +15,7 @@ cred = credentials.Certificate(auth_json_path)
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 messages = db.collection(u'messages')
-    
+
 
 app = Flask(__name__)
 CORS(app)
@@ -26,6 +27,10 @@ def home():
 
 @app.route("/map")
 def mapRequest():
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    data_set_path = os.path.join(current_dir, "Modeling_Data_Set.csv")
+    data = pd.read_csv(data_set_path, header=0)
+    print(ModelFunction.predictor(9, data))
     return render_template('map.html')
 
 

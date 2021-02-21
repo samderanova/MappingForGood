@@ -2,16 +2,18 @@
 
 .MessageBoard{
     padding: 80px 100px;
+    animation-name: fade-in;
+    animation-duration: 1s;
 }
 
 .MessageBoard form {
-    background-color: rgb(95, 95, 95);
+    background-color: rgb(56, 57, 49);
     padding: 40px;
 }
 
 .MessageBoard label {
     font-family: 'Roboto', sans-serif;
-    
+    font-size: 20px;
 }
 
 .pill {
@@ -37,6 +39,12 @@
 
 .MessageBoard .form .card {
     padding: 10px;
+}
+
+.MessageBoard input, .MessageBoard textarea {
+    background-color: rgb(95, 95, 95);
+    color: white;
+    font-size: 18px;
 }
 
 .MessageBoard button {
