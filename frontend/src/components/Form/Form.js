@@ -14,9 +14,7 @@ export default class Form extends React.Component {
         this.updateFormState = this.updateFormState.bind(this);
     }
     componentDidMount() {
-        // Call to localhost:5000, the Flask backend which will get the messages stored in
-        // a MongoDB database
-        fetch('http://localhost:5000/message-board')
+        fetch('https://stable-liberty-305417.wl.r.appspot.com/message-board')
             .then((res) => {
             })
             .catch((err) => console.error(err))
@@ -35,7 +33,7 @@ export default class Form extends React.Component {
             textarea.style.border = "3px solid red";
             return;
         }
-        fetch('http://localhost:5000/message-board', {
+        fetch('https://stable-liberty-305417.wl.r.appspot.com/message-board', {
             method: "POST",
             headers: {
                 'Content-Type': "application/json"

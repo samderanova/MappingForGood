@@ -1,12 +1,11 @@
 import axios from 'axios';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {InputBase} from '@material-ui/core';
 import './MessageBoard.css';
 
 export default class MessageBoard extends React.Component {
     componentDidMount() {
-        axios.get('http://localhost:5000/message-board')
+        axios.get('https://stable-liberty-305417.wl.r.appspot.com/message-board')
             .then(res => {
                 var docElements = [];
                 for (var i=res.data.length-1; i >= 0; i--) {
