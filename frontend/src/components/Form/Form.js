@@ -54,13 +54,13 @@ export default class Form extends React.Component {
             <div className="Form">
                 <h1>Looking to get help for your neighborhood? Please leave your concerns here!</h1>
                 <form>
-                    <label for="email">Email</label><br></br><br></br>
+                    <label htmlFor="email">Email</label><br></br><br></br>
                     <input type="email" name="email" className="pill" required={true} onChange={this.updateFormState}/>
                     <br></br><br></br>
-                    <label for="username">Username</label><br></br><br></br>
+                    <label htmlFor="username">Username</label><br></br><br></br>
                     <input className="pill" type="text" name="username" required={true} onChange={this.updateFormState} />
                     <br></br><br></br>
-                    <label for="message">Message</label><br></br><br></br>
+                    <label htmlFor="message">Message</label><br></br><br></br>
                     <textarea name="message" id="newMessageDescription" autoFocus required={true} onChange={this.updateFormState}></textarea>
                     <br></br><br></br>
                     <button type="button" onClick={this.sendMessage}>Send Message</button>
