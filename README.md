@@ -35,7 +35,7 @@ We also used the metric of determining whether an area is a **Food Desert**. An 
 ### Tech Stack + Dataset Used:
 
 |Frontend|Backend|Hosted On|WebApp Is Live Here ⬇️|Dataset|About the Dataset|
-|---|---|---|---|---|-------|
+|---|---|---|---|---|----|
 |To be added|To be added|to be added|To be added|To be added|The dataset used is a modified version of the Economic Research Service (ERS) and U.S. Department of Agriculture (USDA).|
 
 ### Meet The Team
@@ -51,15 +51,18 @@ We also used the metric of determining whether an area is a **Food Desert**. An 
 
 ### Main Homepage
 
-![]()
+![Homepage](https://github.com/samderanova/MappingForGood/blob/master/assets/HomepageRecording.gif)
 
 ### Interactive Map of Sacramento Food Desert Clusters
 
-![]()
+![Map](https://github.com/samderanova/MappingForGood/blob/master/assets/Map.gif)
 
 ### Message Board for Submitting Concerns
 
-![]()
+![MessageBoard](https://github.com/samderanova/MappingForGood/blob/master/assets/MessageBoard.gif)
+
+# We Hope You Liked Our Project! Show Some ❤️ By Giving A ⭐ To This Repository ❗
+ 
 
 
 
