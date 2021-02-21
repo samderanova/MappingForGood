@@ -4,13 +4,13 @@
 
 ## 📖 About
 
-*Poverty is a persisting problem throughout the United States with over 46.2 million Americans living in poverty according to the US Census and with the emergence of COVID-19, the number has only grown*
+*Poverty is a persisting problem throughout the United States with over 46.2 million Americans living in poverty according to the US Census and with the emergence of COVID-19, the number has only grown* Even today, we are learning of new ways poverty impacts the lives of individuals and their communities. 
 
-In hope of reducing the economic inequity within **Sacramento**, our group has created a map that displays the various regions that face poverty within the region of Sacramento. 
+One such way poverty disproportionately impacts communities is in terms of their struggle to access to affordable and nutritious food. Communities with high rates of poverty tend to live in areas known as food deserts, which can be found all across America, including within Sacramento. In hopes of shedding light on this issue and to help bridge the gap between the weatlhy and the poor within **Sacramento**, our group has created a map that displays the various regions with Sacramento, CA that are food deserts and that attempts to shed light on the degree to which poverty is linked to the occurence of food deserts. We have also built a message board in which we hope people within and around these communities can come together to help their fellow Sacramentans.
 
 ### How it all started?
 
-One of our Community college student from Sacramento noticed the economic inequality while living in Sacramento such as large amount of homeless camps and the differences in living conditions that span across various neighbourhoods within Sacramento. This lead to the motivation to create a web app that aims to solve some of these problems by marking the areas within Sacramento that needs aid by directing government agencies and Non-Profit Organizations towards those areas. The rest of the members were overjoyed to collaborate on a project that focuses on a fulfilling goal of improving the living conditions of the people of Sacramento, CA.
+A member of our team, who is a community college student from Sacramento noticed this economic despairity while living in Sacramento. Noting the large amount of homeless ecampments and the vast differences in living conditions from neighbourhoods within Sacramento that were merely streets away. These experiences inspired  him to create a web app that aims to solve some of these problems by marking the areas within Sacramento that needs aid. As such, this app was created in hopes of assisting government agencies and Non-Profit Organizations in identifying these areas and to identify the most efficient ways towards directing aid to these areas. The rest of the members who share his vision were overjoyed to collaborate on a project that focuses on a fulfilling goal of improving the living conditions of the people of Sacramento, CA.
 
 ### What is a Food Desert
 
@@ -21,7 +21,12 @@ Without access to healthful foods, people living in food deserts may be at highe
 Several government bodies are now funding projects to prevent areas from becoming food deserts and to improve people’s access to food in existing food deserts.
 
 ## 💡 Our Solution To The Problem 
+Using census data to identify areas with Sacramento that were considered food deserts, we have:
+- Deployed machine learning algorithms to identify the best ways to transport aid to these communities. 
+- Built models to predict how uplifitng the economic circumstances of communities can help eradicate the emergence of food deserts
 
+To actively assists Sacramentas, we have:
+- Incorporated a message board to our app where individuals may seek help from their fellow neighbours.
 
 
 
