@@ -1,7 +1,8 @@
+import axios from 'axios';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {InputBase} from '@material-ui/core';
 import './MessageBoard.css';
-import axios from 'axios';
 
 export default class MessageBoard extends React.Component {
     componentDidMount() {
@@ -23,8 +24,8 @@ export default class MessageBoard extends React.Component {
     }
     render() {
         return (
-            <div className="MessageBoard" id="message-board">
-                
+            <div className="MessageBoard">
+                <div id="message-board"></div>
             </div>
         )
     }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Form.css';
 
-export default class MessageBoard extends React.Component {
+export default class Form extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -51,7 +51,7 @@ export default class MessageBoard extends React.Component {
     }
     render() {
         return (
-            <div className="MessageBoard">
+            <div className="Form">
                 <h1>Looking to get help for your neighborhood? Please leave your concerns here!</h1>
                 <form>
                     <label for="email">Email</label><br></br><br></br>

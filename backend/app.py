@@ -2,7 +2,6 @@ import json
 import os
 
 import firebase_admin
-import pandas as pd
 from firebase_admin import credentials, firestore
 from flask import Flask, request, render_template
 from flask_cors import CORS
@@ -27,11 +26,16 @@ def home():
 
 @app.route("/map")
 def mapRequest():
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    data_set_path = os.path.join(current_dir, "Modeling_Data_Set.csv")
-    data = pd.read_csv(data_set_path, header=0)
-    print(ModelFunction.predictor(9, data))
     return render_template('map.html')
+
+
+@app.route("/calculate", methods=["POST"])
+def calculate():
+    slider_value = request.json["sliderValue"]
+    med_white_value = request.json["medWhiteValue"]
+    print(slider_value, med_white_value)
+    print(ModelFunction.predictor(med_white_value, slider_value))
+    return ModelFunction.predictor(med_white_value, slider_value)
 
 
 @app.route("/helper-form")

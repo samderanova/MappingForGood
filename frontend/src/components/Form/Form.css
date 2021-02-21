@@ -1,17 +1,17 @@
 /* All animations are in frontend/index.css */
 
-.MessageBoard{
+.Form { 
     padding: 80px 100px;
     animation-name: fade-in;
     animation-duration: 1s;
 }
 
-.MessageBoard form {
+.Form form {
     background-color: rgb(56, 57, 49);
     padding: 40px;
 }
 
-.MessageBoard label {
+.Form label {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
@@ -24,7 +24,7 @@
              
 }
 
-.MessageBoard textarea {
+.Form textarea {
     width: 100%;
     height: 60vh;
     padding: 10px;
@@ -33,21 +33,21 @@
     resize: none;
 }
 
-.MessageBoard.card {
+.Form .card {
     border-radius: 10px;
 }
 
-.MessageBoard .form .card {
+.Form .form .card {
     padding: 10px;
 }
 
-.MessageBoard input, .MessageBoard textarea {
+.Form input, .MessageBoard input, .Form textarea {
     background-color: rgb(95, 95, 95);
     color: white;
     font-size: 18px;
 }
 
-.MessageBoard button {
+.Form button {
     width: 20%;
     padding: 20px;
 }

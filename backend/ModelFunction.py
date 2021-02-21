@@ -1,3 +1,4 @@
+import json
 import os
 
 import pandas as pd
@@ -15,29 +16,32 @@ data_set_path = os.path.join(current_dir, "Modeling_Data_Set.csv")
 data = pd.read_csv(data_set_path, header=0) #Possible Modification to Link to database
 
 
-
 medIncome = data["MedianFamilyIncome"].mean()
 Income_std = data["MedianFamilyIncome"].std()
 medWhite = data["TractWhite"].mean()
+White_std = data["TractWhite"].std()
 
 X_cols = ["MedianFamilyIncome", "TractWhite"]
 y_col = ["FoodDesert"]
 
-print(type(medWhite))
+# print(type(medWhite))
    
 
-def scaler(input):
-    scaled = (input - medIncome) / Income_std
+def scaler(input_val):
+    scaled = (input_val - medIncome) / Income_std
     return scaled
 
+def scaler_two(input_val):
+    scaled2 = (input_val - medWhite) / White_std
+    return scaled2
 
-def predictor(input,dataframe): #WILL PROBABLY CHNAGE INPUTS
-
+def predictor(input_val, med_white_param): #WILL PROBABLY CHNAGE INPUTS
+    dataframe = data
     #Resample
     df_maj = dataframe[dataframe.FoodDesert==0]
     df_min = data[dataframe.FoodDesert==1]
 
-    df_majority_downsampled = resample(df_maj, replace=False,  n_samples=13,random_state=0)
+    df_majority_downsampled = resample(df_maj, replace=False, n_samples=13,random_state=0)
     df_downsampled = pd.concat([df_majority_downsampled, df_min])
 
     #X and y
@@ -52,11 +56,14 @@ def predictor(input,dataframe): #WILL PROBABLY CHNAGE INPUTS
 
     model.fit(X,np.ravel(y))
 
-    predictors = {"MedianFamilyIncome":[scaler(input)],"TractWhite":[medWhite]}
+    predictors = {"MedianFamilyIncome":[scaler(input_val)],"TractWhite":[scaler_two(med_white_param)]}
     predictors = pd.DataFrame(data=predictors)
 
     prediction =  model.predict(predictors)
 
-    return prediction
+    if prediction == 1:
+        return json.dumps("This is still a food desert!")
+    return json.dumps("This is not a food desert!")
 
-print("prediction: ", predictor(9 ,data))
+
+# print("prediction: ", predictor(9))
