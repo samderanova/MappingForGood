@@ -60,7 +60,7 @@ export default class Home extends React.Component {
                                 </li>
                                 <li>Income data from the US census to determine areas of economic inequity</li>
                             </ul>
-                            <p>Our team used several metrics to decide whether a region in Sacramento needed aid. One of the metrics we used was income since areas of low income often lack the resources necessary to provide the people with a better lifestyle. We also use the metric of determining whether an area is a food desert. An area is classified as a food desert if there are no supermarkets present within a 1-mile radius of the area. These areas are often overlooked by supermarket companies as the consumer base is unable to afford food and thus the people are unable to access healthy meals.
+                            <p>Our team used these metrics to decide whether a region in Sacramento needed aid. One of the metrics we used was income since areas of low income often lack the resources necessary to provide the people with a better lifestyle. We also use the metric of determining whether an area is a food desert. An area is classified as a food desert if there are no supermarkets present within a 1-mile radius of the area. These areas are often overlooked by supermarket companies as the consumer base is unable to afford food and thus the people are unable to access healthy meals.
                             </p>
                         </div>
                     </div>

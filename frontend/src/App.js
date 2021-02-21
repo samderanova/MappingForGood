@@ -19,8 +19,8 @@ export default class App extends React.Component {
               <a href="http://localhost:5000/map">
                 <Typography variant="h6">The Map</Typography>
               </a>
-              <Link to='/submitConcern'>
-                <Typography variant="h6">Submit Concern</Typography>
+              <Link to='/submitConcerns'>
+                <Typography variant="h6">Submit Concerns</Typography>
               </Link>
               <Link to='/messageBoard'>
                 <Typography variant="h6">Message Board</Typography>
@@ -28,7 +28,7 @@ export default class App extends React.Component {
             </Toolbar>
           </AppBar>
           <Route path='/' exact component={Home} />
-          <Route path='/submitConcern' component={Form} />
+          <Route path='/submitConcerns' component={Form} />
           <Route path='/messageBoard' component={MessageBoard} />
         </Router>
       </div>
