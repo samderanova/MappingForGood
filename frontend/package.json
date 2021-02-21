@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start-api": "python ../backend/app.py",
+    "start-api": "python ../backend/main.py",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
