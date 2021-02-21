@@ -30,19 +30,20 @@ We also used the metric of determining whether an area is a **Food Desert**. An 
 - Out of all the counties in Sacramento, the ones which were food deserts based on the metrics discussed above were found.
 - K-Means Clustering was used to cluster the food deserts based on their proximities to each other thus providing an efficient way for the logistics department of the Government or the NGOs to prepare distribution of aids in these areas.
 - These clusters were plotted on the map of Sacramento with interactive features included like depicting the **Pie Chart** distribution of the ethnic proportion and an interactive slider feature which allows the user to assess the threshold for an area to be determined as a food desert or not based on the **median family income** for the residents of that area and the total count of the white population in that area.
--The web app also has the functionality of filling out a message form by its users who wish to submit concerns and are looking out for help for their neighbours and the neighbourhood along with a message board for display.
+- The web app also has the functionality of filling out a message form by its users who wish to submit concerns and are looking out for help for their neighbours and the neighbourhood along with a message board for display.
 
 ### Tools & Technologies Used
 
 |The Project Made Use Of The Following Tools & Technologies |
 |---------|
-|<a><img align="left" alt="Python" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/python.svg" /></a><a><img align="left" alt="React" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/react.svg" /></a>
+|<a><img align="left" alt="Python" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/python.svg" /></a><a><img align="left" alt="React" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/react.svg" /></a><a><img align="left" alt="HTML" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/html5.svg" /></a><a><img align="left" alt="CSS" width="50px" src="https://github.com/samderanova/MappingForGood/blob/master/assets/CSS%20logo.png" /></a><a><img align="left" alt="Github" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/github.svg" /></a><a><img align="left" alt="Git" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/git.svg" /></a><a><img align="left" alt="Jupyter" width="50px" src="https://github.com/samderanova/MappingForGood/blob/master/assets/jupyter.jpg" /></a><a><img align="left" alt="Folium" width="50px" src="https://github.com/samderanova/MappingForGood/blob/master/assets/Folium%20Logo.png" /></a><a><img align="left" alt="Flask" width="50px" src="https://github.com/samderanova/MappingForGood/blob/master/assets/flask%20logo.png" /></a><a><img align="left" alt="GCP" width="50px" src="https://github.com/samderanova/MappingForGood/blob/master/assets/GoogleCloudPlatform.jpg" /></a><a><img align="left" alt="Domain.com" width="60px" src="https://github.com/samderanova/MappingForGood/blob/master/assets/Domain.com-Logo.png" /></a><a><img align="left" alt="Scikit" width="50px" src="https://github.com/samderanova/MappingForGood/blob/master/assets/scikit%20logo.png" /></a>
+
 
 ### Link To Web App & Dataset
 
 |WebApp Is Live Here ⬇️|Dataset|
 |---|---|
-|To be added|To be added|
+|To be added|<a href="https://drive.google.com/drive/folders/1cbMdwkRPjvSdDhE4XZZ_t1yEX_jyq5ub?usp=sharing">Link To Dataset</a>|
 
 |About the Dataset|
 |-----------------|
