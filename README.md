@@ -36,7 +36,7 @@ We also used the metric of determining whether an area is a **Food Desert**. An 
 
 |The Project Made Use Of The Following Tools & Technologies |
 |---------|
-|<a><img align="left" alt="Python" width="35px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/python.svg" /></a>
+|<a><img align="left" alt="Python" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/python.svg" /></a><a><img align="left" alt="React" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/react.svg" /></a>
 
 ### Link To Web App & Dataset
 
