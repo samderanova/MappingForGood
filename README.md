@@ -30,7 +30,7 @@ We also used the metric of determining whether an area is a **Food Desert**. An 
 - Out of all the counties in Sacramento, the ones which were food deserts based on the metrics discussed above were found.
 - K-Means Clustering was used to cluster the food deserts based on their proximities to each other thus providing an efficient way for the logistics department of the Government or the NGOs to prepare distribution of aids in these areas.
 - These clusters were plotted on the map of Sacramento with interactive features included like depicting the **Pie Chart** distribution of the ethnic proportion and an interactive slider feature which allows the user to assess the threshold for an area to be determined as a food desert or not based on the **median family income** for the residents of that area and the total count of the white population in that area.
--The web app also has the functionality of filling out a message form by its users who wish to submit concerns and are looking out for help for their neighbours and the neighbourhood along with a message board for display.
+- The web app also has the functionality of filling out a message form by its users who wish to submit concerns and are looking out for help for their neighbours and the neighbourhood along with a message board for display.
 
 ### Tools & Technologies Used
 
