@@ -32,22 +32,34 @@ We also used the metric of determining whether an area is a **Food Desert**. An 
 - These clusters were plotted on the map of Sacramento with interactive features included like depicting the **Pie Chart** distribution of the ethnic proportion and an interactive slider feature which allows the user to assess the threshold for an area to be determined as a food desert or not based on the **median family income** for the residents of that area and the total count of the white population in that area.
 -The web app also has the functionality of filling out a message form by its users who wish to submit concerns and are looking out for help for their neighbours and the neighbourhood along with a message board for display.
 
-### Tech Stack + Dataset Used:
+### Tools & Technologies Used
 
-|Frontend|Backend|Hosted On|WebApp Is Live Here ⬇️|Dataset|About the Dataset|
-|---|---|---|---|---|----|
-|To be added|To be added|to be added|To be added|To be added|The dataset used is a modified version of the Economic Research Service (ERS) and U.S. Department of Agriculture (USDA).|
+|The Project Made Use Of The Following Tools & Technologies |
+|---------|
+|<a><img align="left" alt="Python" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/python.svg" /></a><a><img align="left" alt="React" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/react.svg" /></a>
+
+### Link To Web App & Dataset
+
+|WebApp Is Live Here ⬇️|Dataset|
+|---|---|
+|To be added|To be added|
+
+|About the Dataset|
+|-----------------|
+|The dataset used is a modified version of the Economic Research Service (ERS) and U.S. Department of Agriculture (USDA). After performing intensive feature engineering and dimensionality reduction the custom dataset was used for the project.|
 
 ### Meet The Team
 
 |.|Name|College|Location|
 |---|---|---|---|
-|⭐|Sam Der|UC Irvine|Alameda, CA|
+|⭐|Sam Der|UC Irvine|San Francisco, CA|
 |⭐|Ishan Meher|Folsom Lake College|Sacramento, CA|
 |⭐|Grace Foo|Monash University|Selangor, Malaysia|
 |⭐|Arya Shah|NMIMS University|Mumbai, India|
 
 ## Project Demonstration
+
+Here, we give a quick glimpse of the web app demonstrating all of its functionalities.
 
 ### Main Homepage
 
@@ -61,7 +73,7 @@ We also used the metric of determining whether an area is a **Food Desert**. An 
 
 ![MessageBoard](https://github.com/samderanova/MappingForGood/blob/master/assets/MessageBoard.gif)
 
-# We Hope You Liked Our Project! Show Some ❤️ By Giving A ⭐ To This Repository ❗
+# We Hope You Liked Our Project ❗ Show Some ❤️ By Giving A ⭐ To This Repository ❗
  
 
 
