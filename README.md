@@ -1,6 +1,6 @@
 # MappingForGood | SACHACKS '21
 
-![Project Banner](https://github.com/samderanova/MappingForGood/blob/master/assets/SacHacks%20Banner.png)
+![Project Banner](https://github.com/samderanova/MappingForGood/blob/master/assets/SacHacks%20Banner%20Updated.jpg)
 
 ## 📖 About
 
@@ -8,11 +8,11 @@
 
 In hope of reducing the economic inequity within **Sacramento**, our group has created a map that displays the various regions that face poverty within the region of Sacramento. 
 
-### How it all started?
+### How it all started❓
 
 One of our Community college student from Sacramento noticed the economic inequality while living in Sacramento such as large amount of homeless camps and the differences in living conditions that span across various neighbourhoods within Sacramento. This lead to the motivation to create a web app that aims to solve some of these problems by marking the areas within Sacramento that needs aid by directing government agencies and Non-Profit Organizations towards those areas. The rest of the members were overjoyed to collaborate on a project that focuses on a fulfilling goal of improving the living conditions of the people of Sacramento, CA.
 
-### What is a Food Desert
+### What is a Food Desert 🤔
 
 Food deserts are regions where people have limited access to healthful and affordable food. This may be due to having a low income or having to travel farther to find healthful food options.
 
@@ -24,6 +24,8 @@ Several government bodies are now funding projects to prevent areas from becomin
 
 
 
+### Methods Used:
+- 
 
 ### Tech Stack Used:
 
@@ -31,7 +33,7 @@ Several government bodies are now funding projects to prevent areas from becomin
 |---|---|---|---|
 |To be added|To be added|to be added|To be added|
 
-
+Meet The Team
 ## Project Demonstration
 
 <GIFs Added Here>
