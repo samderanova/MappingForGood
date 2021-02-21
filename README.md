@@ -1,6 +1,6 @@
 # MappingForGood
 
-![Project Banner]()
+![Project Banner](https://github.com/samderanova/MappingForGood/blob/master/assets/SacHacks%20Banner.png)
 
 ## About
 
