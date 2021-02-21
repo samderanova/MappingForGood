@@ -22,18 +22,30 @@ Several government bodies are now funding projects to prevent areas from becomin
 
 ## 💡 Our Solution To The Problem 
 
+Our team used several metrics to decide whether a region in Sacramento needed aid or not. One of the metrics we used was **income** since areas of low income often lack the resources necessary to provide people a better living. 
 
+We also used the metric of determining whether an area is a **Food Desert**. An area is classified as a food desert if there are no supermarkets present within a 1-mile radius of the area. *These areas are often overlooked by supermarket companies as the consumer base is unable to afford food and thus, leading to loss of access to healthy meals.
 
-### Methods Used:
-- 
+### Methodology:
+- Out of all the counties in Sacramento, the ones which were food deserts base don the metrics discussed above were found.
+- K-Means Clustering was used to cluster the food deserts based on their proximities to each other thus providing an efficient way for the logistics department of the Government or the NGOs to prepare distribution of aids in these areas.
+- These clusters were plotted on the map of Sacramento with interactive features included like depicting the **Pie Chart** distribution of the ethnic proportion and an interactive slider feature which allows the user to assess the threshold for an area to be determined as a food desert or not based on the **median family income** for the residents of that area and the total count of the white population in that area.
 
-### Tech Stack Used:
+### Tech Stack + Dataset Used:
 
-|Frontend|Backend|Hosted On|WebApp Is Live Here ⬇️|
+|Frontend|Backend|Hosted On|WebApp Is Live Here ⬇️|Dataset|
+|---|---|---|---|---|
+|To be added|To be added|to be added|To be added|To be added|
+
+### Meet The Team
+
+|No.|Name|College|Location|
 |---|---|---|---|
-|To be added|To be added|to be added|To be added|
+|⭐|Sam Der|UC Irvine|San Francisco, CA|
+|⭐|Ishan Meher|Folsom Lake College|Sacramento, CA|
+|⭐|Grace Foo|Monash University|Selangor, Malaysia|
+|⭐|Arya Shah|NMIMS University|Mumbai, India|
 
-Meet The Team
 ## Project Demonstration
 
 <GIFs Added Here>
