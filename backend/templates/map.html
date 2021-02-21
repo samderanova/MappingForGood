@@ -58,10 +58,10 @@
 </head>
 <body>    
             <nav>
-                <a href="http://localhost:3000/">MappingForGood</a>
-                <a href="http://localhost:5000/map">The Map</a>
-                <a href="http://localhost:3000/submitConcerns">Submit Concerns</a>
-                <a href="http://localhost:3000/messageBoard">Message Board</a>
+                <a href="https://sleepy-reaches-69673.herokuapp.com/">MappingForGood</a>
+                <a href="https://stable-liberty-305417.wl.r.appspot.com/mapmap">The Map</a>
+                <a href="https://sleepy-reaches-69673.herokuapp.com/submitConcerns">Submit Concerns</a>
+                <a href="https://sleepy-reaches-69673.herokuapp.com/messageBoard">Message Board</a>
             </nav>
             <div class="folium-map" id="map_e0349487a55240febe404032eeeff05c" ></div>
         
@@ -309,7 +309,7 @@
         
         function updateInput(medWhiteParameter, sliderValue) {
             document.getElementById("slider-input").value = sliderValue;
-            fetch('http://localhost:5000/calculate', {
+            fetch('https://stable-liberty-305417.wl.r.appspot.com/calculate', {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json'

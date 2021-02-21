@@ -16,7 +16,7 @@ export default class App extends React.Component {
               <Link to="/">
                 <Typography variant="h5"><strong>MappingForGood</strong></Typography>
               </Link>
-              <a href="http://localhost:5000/map">
+              <a href="https://stable-liberty-305417.wl.r.appspot.com/map">
                 <Typography variant="h6">The Map</Typography>
               </a>
               <Link to='/submitConcerns'>
