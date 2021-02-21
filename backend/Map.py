@@ -58,7 +58,7 @@ for i in range(len(data['Longitude'])):
 
     coordinates.append([a,b])
 
-    if data.Cluster[i]7==0:
+    if data.Cluster[i]==0:
         col.append('blue') 
     elif data.Cluster[i]==1:
         col.append("red")
