@@ -8,7 +8,7 @@ from flask_cors import CORS
 import ModelFunction
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
-auth_json_path = os.path.join(current_dir, 'gcp-3f8449c9ed6e.json')
+auth_json_path = os.path.join(current_dir, 'gcp-3f8449c9ed6e.json') 
 
 cred = credentials.Certificate(auth_json_path)
 firebase_admin.initialize_app(cred)

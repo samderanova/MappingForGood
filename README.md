@@ -62,7 +62,7 @@ We also used the metric of determining whether an area is a **Food Desert**. An 
 
 |.|Name|College|Location|
 |---|---|---|---|
-|⭐|Sam Der|UC Irvine|San Francisco, CA|
+|⭐|Sam Der|UC Irvine|Alameda, CA|
 |⭐|Ishan Meher|Folsom Lake College|Sacramento, CA|
 |⭐|Grace Foo|Monash University|Selangor, Malaysia|
 |⭐|Arya Shah|NMIMS University|Mumbai, India|
