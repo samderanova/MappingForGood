@@ -36,7 +36,9 @@ We also used the metric of determining whether an area is a **Food Desert**. An 
 
 |The Project Made Use Of The Following Tools & Technologies |
 |---------|
-|<a><img align="left" alt="Python" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/python.svg" /></a><a><img align="left" alt="React" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/react.svg" /></a>
+|<a><img align="left" alt="Python" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/python.svg" /></a><a><img align="left" alt="React" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/react.svg" /></a><a><img align="left" alt="HTML" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/html5.svg" /></a><a><img align="left" alt="CSS" width="50px" src="" /></a><a><img align="left" alt="Github" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/github.svg" /></a><a><img align="left" alt="Git" width="50px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/git.svg" /></a><a><img align="left" alt="Jupyter" width="50px" src="" /></a><a><img align="left" alt="Jupyter" width="50px" src="" /></a>
+
+
 
 ### Link To Web App & Dataset
 
