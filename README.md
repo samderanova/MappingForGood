@@ -1,6 +1,6 @@
 # MappingForGood | SACHACKS '21
 
-![Project Banner](https://github.com/samderanova/MappingForGood/blob/master/assets/SacHacks%20Banner.png)
+![Project Banner](https://github.com/samderanova/MappingForGood/blob/master/assets/SacHacks%20Banner%20Updated.jpg)
 
 ## 📖 About
 
