@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start-api": "cd .. && cd backend/Scripts && activate.bat && cd .. && flask run",
+    "start-api": "python ../backend/app.py",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
