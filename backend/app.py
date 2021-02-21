@@ -46,8 +46,7 @@ def message_board():
         return json.dumps([doc.to_dict() for doc in docs])
     else:
         data = request.json
-        print(data)
-        db.collection('messages').document(data['username']).set(data)
+        db.collection(u'messages').document(data['username']).set(data)
         return data
 
 if __name__ == "__main__":
