@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { AppBar, Toolbar, Typography } from '@material-ui/core';
 import Home from './components/Home/Home';
 import Form from './components/Form/Form';
-import MessageBoard from './components/MessageBoard/MessageBoard'
+import MessageBoard from './components/MessageBoard/MessageBoard';
 import './App.css';
 
 export default class App extends React.Component {

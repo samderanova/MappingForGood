@@ -9,18 +9,27 @@ export default class MessageBoard extends React.Component {
         axios.get('http://localhost:5000/message-board')
             .then(res => {
                 var docElements = [];
-                for (var i=0; i < res.data.length; i++) {
+                for (var i=res.data.length-1; i >= 0; i--) {
                     docElements.push(
-                        <div key={i} className="message">
+                        <div key={i} id={i} className="message">
                             <p style={{color: 'white'}}>{res.data[i].username}</p>
                             <hr />
                             <p style={{padding: "20px 0"}}>{res.data[i].message}</p>
                         </div>
                     )
                 }
-                ReactDOM.render(docElements, document.getElementById("message-board"))
+                ReactDOM.render(docElements, document.getElementById("message-board"));
+                for (var i=res.data.length-1; i >= 0; i--) {
+                    var newObserver = new IntersectionObserver((entries) => {
+                        if (entries[0].isIntersecting) {
+                            entries[0].target.setAttribute('style', `animation: fade-in; animation-duration: 1s;`);
+                        }
+                    });
+                    newObserver.observe(document.getElementById(i));
+                }
             })
             .catch(err => console.error(err));
+        
     }
     render() {
         return (

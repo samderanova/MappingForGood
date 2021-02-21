@@ -64,15 +64,13 @@ export default class Home extends React.Component {
                             </p>
                         </div>
                     </div>
-                        <div className="box-3" id="#why-sacramento">
-                        <div className="box-3-left card">
+                    <div className="box-3" id="#why-sacramento">
+                        <div className="card">
                             <h2>Why This?</h2>
                             <p>
                             The Sacramento Community College student on our team frequently saw the effects of economic inequality in Sacramento from and its effect on the people living in the city such as the large amount of homeless camps and the differences in living conditions that span across various neighborhoods within Sacramento and was motivated to create a web app that aimed to solve some of these problem by pinpointing areas within Sacramento that needed aid and directing government agencies and nonprofit organizations to provide aid to these areas. The other members of our team were overjoyed to take on a project that would focus on a fulfilling goal of improving the living conditions of others. From this project our team learned the importance of diversity of thought.
                             </p>
-                        </div>
-                        
-                        <div id="teams" className="box-3-right card" >
+                            <br></br><br></br><br></br>
                             <h2>The Team</h2>
                             <p>Our team was composed of two groups of differing backgrounds, one that had knowledge in data science and another that had knowledge in web development. The differing skill sets and experiences of the members of our team allowed us the opportunity to create a unique application that utilized different technologies allowing us to learn from one another.</p>
                             <div className="logos" >
