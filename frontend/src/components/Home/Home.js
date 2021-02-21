@@ -35,9 +35,7 @@ export default class Home extends React.Component {
                         <div className="box-1-left card">
                             <h2 >The Problem</h2>
                             <p>
-                                Poverty is a persisting problem throughout the United States with over <strong>46.2 million</strong> Americans living in poverty according to the US Census
-                                and with the emergence of Covid-19 that number has only grown. In hope of reducing the economic inequity within 
-                                Sacramento our group has created a map that displays the various regions that face poverty.
+                            Poverty is a persistent problem in the United States and affects over 43 million Americans living in poverty according to the US Census and with the emergence of Covid-19 that number has grown due to the economic recession. In hope of trying to solve this issue in Sacramento our team created a web app that maps areas in Sacramento that need aid so that government agencies and non-profit organizations can provide the necessary aid to those people. We also implemented a message board so that regions that may have been overlooked by federal data sets can communicate their needs.
                             </p>
                         </div>
                         <div className="box-1-right">
@@ -58,19 +56,15 @@ export default class Home extends React.Component {
                                 </li>
                                 <li>Income data from the US census to determine areas of economic inequity</li>
                             </ul>
-                            <p>By using these metrics our team aims to be able to pinpoint areas that are in need of additonal aid in the form of social programs or donations.
-                            We also acknowledge that many areas can be overlooked by Census and other federal datasets, and so our team created a message board in which people can communicate the needs of their communities.</p>
+                            <p>Our team used several metrics to decide whether a region in Sacramento needed aid. One of the metrics we used was income since areas of low income often lack the resources necessary to provide the people with a better lifestyle. We also use the metric of determining whether an area is a food desert. An area is classified as a food desert if there are no supermarkets present within a 1-mile radius of the area. These areas are often overlooked by supermarket companies as the consumer base is unable to afford food and thus the people are unable to access healthy meals.
+                            </p>
                         </div>
                     </div>
                     <div className="box-3" id="#why-sacramento">
                         <div className="box-3-left card">
                             <h2>Why Sacramento?</h2>
                             <p>
-                                The Community College Student from Sacramento noticed the economic inequality while living in Sacramento such as the large amount of homeless
-                                camps and the differences in living conditions that span across various neighborhoods within Sacramento and was motivated to create a web app
-                                that aimed to solve some of these problem by pinpointing areas within Sacramento that needed aid and directing government agencies and nonprofit
-                                organizations to provide aid to these areas. The other members of our team were overjoyed to take on a project that would focus on a fulfilling
-                                goal of improving the living conditions of others.
+                            The Sacramento Community College on our team frequently saw the effects of economic inequality in Sacramento from and its effect on the people living in the city such as the large amount of homeless camps and the differences in living conditions that span across various neighborhoods within Sacramento and was motivated to create a web app that aimed to solve some of these problem by pinpointing areas within Sacramento that needed aid and directing government agencies and nonprofit organizations to provide aid to these areas. The other members of our team were overjoyed to take on a project that would focus on a fulfilling goal of improving the living conditions of others. From this project our team learned the importance of diversity of thought. Our team was composed of two groups of differing backgrounds, one that had knowledge in data science and another that had knowledge in web development. The differing skill sets and experiences of the members of our team allowed us the opportunity to create a unique application that utilized different technologies allowing us to learn from one another.
                             </p>
                         </div>
                     </div>
